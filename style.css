@@ -1,0 +1,36 @@
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 0 50px 50px 50px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    text-decoration: dotted;
+    margin: 50px;
+}
+p{
+    font-size: 25px;
+    font-style: oblique;
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color: cadetblue;
+    color: antiquewhite;
+    text-align: center;
+    width: 270px;
+
+
+}
+
+button{
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 20px 20px;
+    background-color: black;
+    color: aliceblue;
+    font: optional;
+    margin:50px;
+}
