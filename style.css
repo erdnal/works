@@ -34,3 +34,9 @@ button{
     font: optional;
     margin:20px;
 }
+main{
+    text-align: center;
+    background-color: burlywood;
+    border: 10px;
+    
+}
