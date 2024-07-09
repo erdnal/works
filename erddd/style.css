@@ -1,5 +1,18 @@
+.parent {
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: repeat(12, ifr);
+
+}
+
 body{
     background-color: blanchedalmond;
+    display: grid;
+    height: 150vh;
+    grid-template-rows: auto ifr auto;
+    padding: 1px;
+
+    
 }
 h1{
     background-color: brown;
@@ -10,6 +23,9 @@ h1{
     text-align: center;
     text-decoration: dotted;
     margin: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    padding:1cm;
 }
 p{
     font-size: 25px;
@@ -33,6 +49,7 @@ button{
     color: aliceblue;
     font: optional;
     margin:20px;
+    padding: 5px;
 }
 main{
     text-align: center;
