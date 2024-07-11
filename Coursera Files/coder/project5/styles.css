@@ -1,6 +1,8 @@
 /* Properties for other selectors */
 *{
     font-family: Monaco;
+    background-color: #495E57;
+
 }
 
 .menu, .ll{
@@ -18,7 +20,7 @@
     max-width: 800px;
     display: flex;
     justify-content: center;
-    background-color:#E0E0E2;
+    background-color:#E0E0E2
 }
 .section {
     padding: 10px;
