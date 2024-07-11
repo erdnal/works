@@ -1,0 +1,25 @@
+@keyframes bounce {
+    from {
+        transform: translate3d(180px, 180px, 180px, 180px);
+    }
+    to {
+        transform: translate3d(640px, 0, 0);
+    }
+    
+}
+#ball {
+    transform: rotate(45deg) scale(1.5) translate(45px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #62687f;
+
+    animation: none 2 ease 0.5 4 normal none running;
+
+    animation: bounce 2s linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+  
+
+}

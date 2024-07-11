@@ -50,6 +50,7 @@ button{
     font: optional;
     margin:20px;
     padding: 5px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 main{
     text-align: center;
@@ -57,4 +58,22 @@ main{
     border: 10px;
     
 
+}
+#lorem{
+    text-emphasis-color: black;
+    color: black;
+    text-shadow: aqua 10px;
+    text-transform: lowercase;
+    text-overflow: ellipsis;
+    font-style: oblique;
+    font-size: large;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 10px 10px 10px 10px gray;
+    text-align: center ;
+
+
+}
+#lorem {
+    transition: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
