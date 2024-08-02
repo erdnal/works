@@ -1,79 +1,120 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <link rel="stylesheet" href="style.css" />
     <title>yapiyorum</title>
-</head>
-<body>
-   <div class="parent"> 
-    <div class="segment"><header> <button>bir</button><button>iki <button>üç</button></button></header></div> </div>
-    <div><h1><em>Erdogan NALDEMIRCI</em></h1></div>
-    <P> <strong>bu benim hayat hikayem</strong> </P>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="segment">
+        <header>
+          <button>bir</button><button>iki <button>üç</button></button>
+        </header>
+      </div>
+    </div>
+    <div>
+      <h1><em>Erdogan NALDEMIRCI</em></h1>
+    </div>
+    <p><strong>bu benim hayat hikayem</strong></p>
     <main>
+      <div>
+        <p id="lorem">
+          Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.
+          <br />Vero asperiores voluptatum repellendus esse,<br />
+          aut temporibus <em>ad non reprehenderit</em> voluptates,<br />
+          exercitationem nesciunt assumenda provident <br /><strong
+            >dolorem corporis saepe delectus cupiditate n</strong
+          >obis iure.
+        </p>
+      </div>
+      <h1>Sign up</h1>
+      <form>
         <div>
-            <p id="lorem">Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. <br>Vero asperiores voluptatum repellendus esse,<br> aut temporibus <em>ad non reprehenderit</em> voluptates,<br> exercitationem nesciunt assumenda provident <br><strong>dolorem corporis saepe delectus cupiditate n</strong>obis iure.</p>
+          <label for="user_first_name">First Name</label>
+          <input
+            type="text"
+            id="user_first_name"
+            name="user_first_name"
+            required
+            minlength="5"
+            maxlength="12"
+          />
         </div>
-        <h1>Sign up</h1>
-        <form>
-            <div>
-                <label for="user_first_name">First Name</label>
-                <input type="text" id="user_first_name" name="user_first_name" required minlength="5" maxlength="12">
-            </div>
-            <div>
-                <label for="user_last_name">Last Name</label>
-                <input type="text" id="user_last_name" name="user_last_name" required minlength="5" maxlength="15">
-            </div>
-            <div>
-                <label for="user_email">Email</label>
-                <input type="email" id="user_email" name="user_email" required minlength="8" maxlength="28">
-            </div>
-            <div>
-                <label for="user_password">Password</label>
-                <input type="password" id="user_password" name="user_password" required minlength="6" maxlength="24">
-            </div>
-            <div>
-                <label for="user_confirm_password">Confirm Password</label>
-                <input type="password" id="user_confirm_password" name="user_confirm_password" required minlength="6" maxlength="24" >
-            </div>
-            <div>
-                <button type="submit">Sign Up </button>
-            </div>
-        </form>
-            <style>
-                input:focus:invalid{
-                    border: 3px solid red;
-                }
-                input:focus:valid{
-                    border: 5px solid rgb(14, 117, 38);
-                }
-            </style>
-            
-                <form method="POST">
-                    <label for="username">naber</label>
-                    <input type="text" id="username" name="username"> naber
-                    <input type="password" name="password">
-                    <button type="submit">Log In</button>
-                 </form>
-            
+        <div>
+          <label for="user_last_name">Last Name</label>
+          <input
+            type="text"
+            id="user_last_name"
+            name="user_last_name"
+            required
+            minlength="5"
+            maxlength="15"
+          />
+        </div>
+        <div>
+          <label for="user_email">Email</label>
+          <input
+            type="email"
+            id="user_email"
+            name="user_email"
+            required
+            minlength="8"
+            maxlength="28"
+          />
+        </div>
+        <div>
+          <label for="user_password">Password</label>
+          <input
+            type="password"
+            id="user_password"
+            name="user_password"
+            required
+            minlength="6"
+            maxlength="24"
+          />
+        </div>
+        <div>
+          <label for="user_confirm_password">Confirm Password</label>
+          <input
+            type="password"
+            id="user_confirm_password"
+            name="user_confirm_password"
+            required
+            minlength="6"
+            maxlength="24"
+          />
+        </div>
+        <div>
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+      <style>
+        input:focus:invalid {
+          border: 3px solid red;
+        }
+        input:focus:valid {
+          border: 5px solid rgb(14, 117, 38);
+        }
+      </style>
 
-
-
+      <form method="POST">
+        <label for="username">naber</label>
+        <input type="text" id="username" name="username" /> naber
+        <input type="password" name="password" />
+        <button type="submit">Log In</button>
+      </form>
     </main>
 
-
-
-    <ol> <div>giresun </div> 
-        <div> bulancak</div>
-         <div>istanbul</div>
-         münih
+    <ol>
+      <div>giresun</div>
+      <div>bulancak</div>
+      <div>istanbul</div>
+      münih
     </ol>
-    <button><strong>begendim</strong>
-    </button>
-    <button><strong>begenmedim</strong>
-    </button>
-    <footer><strong>By Erdoğan NALDEMİRCİ <time datetime></time></strong></footer>
-    
-</body>
-
-
+    <button><strong>begendim</strong></button>
+    <button><strong>begenmedim</strong></button>
+    <footer>
+      <strong>By Erdoğan NALDEMİRCİ <time datetime></time></strong>
+    </footer>
+  </body>
 </html>

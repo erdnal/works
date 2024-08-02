@@ -1,79 +1,70 @@
 .parent {
-    display: grid;
-    background-color: aqua;
-    grid-template-columns: repeat(12, ifr);
-
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: repeat(12, ifr);
 }
 
-body{
-    background-color: blanchedalmond;
-    display: grid;
-    height: 150vh;
-    grid-template-rows: auto ifr auto;
-    padding: 1px;
-
-    
+body {
+  background-color: blanchedalmond;
+  display: grid;
+  height: 150vh;
+  grid-template-rows: auto ifr auto;
+  padding: 1px;
 }
-h1{
-    background-color: brown;
-    color: aliceblue;
-    border-radius: 0 50px 50px 50px;
-    width: 300px;
-    height: 100px;
-    text-align: center;
-    text-decoration: dotted;
-    margin: 50px;
-    display: grid;
-    grid-template-columns: auto;
-    padding:1cm;
+h1 {
+  background-color: brown;
+  color: aliceblue;
+  border-radius: 0 50px 50px 50px;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  text-decoration: dotted;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 1cm;
 }
-p{
-    font-size: 25px;
-    font-style: oblique;
-    border-radius: 20px;
-    margin-left: 50px;
-    background-color: cadetblue;
-    color: antiquewhite;
-    text-align: center;
-    width: 270px;
-
-
+p {
+  font-size: 25px;
+  font-style: oblique;
+  border-radius: 20px;
+  margin-left: 50px;
+  background-color: cadetblue;
+  color: antiquewhite;
+  text-align: center;
+  width: 270px;
 }
 
-button{
-    width: 100px;
-    text-align: center;
-    font-style: italic;
-    border-radius: 20px 20px;
-    background-color: black;
-    color: aliceblue;
-    font: optional;
-    margin:20px;
-    padding: 5px;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+button {
+  width: 100px;
+  text-align: center;
+  font-style: italic;
+  border-radius: 20px 20px;
+  background-color: black;
+  color: aliceblue;
+  font: optional;
+  margin: 20px;
+  padding: 5px;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-main{
-    text-align: center;
-    background-color: burlywood;
-    border: 10px;
-    
-
-}
-#lorem{
-    text-emphasis-color: black;
-    color: black;
-    text-shadow: aqua 10px;
-    text-transform: lowercase;
-    text-overflow: ellipsis;
-    font-style: oblique;
-    font-size: large;
-    border-radius: 10px;
-    background-color: yellow;
-    box-shadow: 10px 10px 10px 10px gray;
-    text-align: center ;
-
-
+main {
+  text-align: center;
+  background-color: burlywood;
+  border: 10px;
 }
 #lorem {
-    transition: cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-emphasis-color: black;
+  color: black;
+  text-shadow: aqua 10px;
+  text-transform: lowercase;
+  text-overflow: ellipsis;
+  font-style: oblique;
+  font-size: large;
+  border-radius: 10px;
+  background-color: yellow;
+  box-shadow: 10px 10px 10px 10px gray;
+  text-align: center;
+}
+#lorem {
+  transition: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
